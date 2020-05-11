@@ -2,4 +2,7 @@ git rm -r --cached .
 	git add .
 	git commit -m 'update .gitignore'
 
-!*.zip
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
